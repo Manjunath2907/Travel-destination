@@ -1,0 +1,41 @@
+body{
+    margin: 60px;/*margin*/
+    background-color: aquamarine;/*background*/
+    }
+    h1{
+        background-color: buttonhighlight;                
+       }
+    ol a{
+        list-style-position: center;
+        }
+    h2{
+        text-indent: 30px;/*text*/
+        text-align: center;
+      }
+      .b{
+          text-align: justify;
+          font-size: 16pt;
+          padding-left: 40px;
+      }
+    figcaption{
+        text-align: center;
+        color: darksalmon;
+    }
+    p{
+        text-align: justify;
+        width:800px;
+        padding-left: 200px;/*padding*/
+     }
+/*usage of class selector*/
+    .pic{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;/*width*/
+        border:blue 2pt solid;/*border*/
+        text-align: center;
+       }
+/*usage of contextual selector*/
+    li a{
+        text-decoration: blink;        
+        }
